@@ -3,7 +3,7 @@ class AddNamesToActor < ActiveRecord::Migration[5.1]
   #a new migration, and then in the change method,
   #we make the change.
   def change
-    add_column :actor, :first_name, :string
-    add_column :actor, :last_name, :string
+    add_column :actors, :first_name, :string
+    add_column :actors, :last_name, :string
   end
 end
