@@ -3,8 +3,8 @@ class AddNameAndIdToCharacter < ActiveRecord::Migration[5.1]
   #a new migration, and then in the change method,
   #we make the change.
   def change
-    add_column :character, :name, :string
-    add_column :character, :actor_id, :integer
-    add_column :character, :show_id, :integer
+    add_column :characters, :name, :string
+    add_column :characters, :actor_id, :integer
+    add_column :characters, :show_id, :integer
   end
 end
